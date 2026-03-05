@@ -1,0 +1,59 @@
+Rules:
+- Comments:
+	- Must start with # and end at the end of the line.
+	- Can be placed at the beginning of a line, or after code.
+	- Must not be wrapped in quotation marks.
+- Key Value Pair:
+	- Must be in format {key}={value}.
+	- Whitespace is ignored.
+	- Key and value must be on the same line, some values may overflow to next line.
+	- Must be newline or eof after each pair.
+- Bare Key:
+	- May only contain [A-Za-z0-9_-].
+- Quoted Key:
+	- Follow rules of basic or literal strings.
+	- May be empty [""|''] (unlike bare keys).
+- Dotted Key:
+	- A sequence of bare or quoted keys joined by a dot.
+	- Whitespace is ignored.
+- String:
+	- 
+- Integer:
+	-
+- Float:
+	-
+- Boolean:
+	- [true|false] (always lowercase).
+- Offset Date-Time:
+	- 
+- Local Date-Time:
+	-
+- Local Date:
+	-
+- Local Time:
+	-
+- Array:
+	-
+- Table:
+	- Must have a header on the first line.
+	- Header must follow rules of keys but is wrapped in brackets (i.e. [key]).
+	- Whitespace is ignored.
+- Inline Table:
+	-
+- Array of Tables:
+	-
+- Filename extension:
+	-
+- Mime Type:
+	-
+- ABNF Grammar:
+	- 
+---
+
+
+Patterns:
+/#.*[\w\s]+$/ -- comment
+/^#.*[\w\s]+$/ -- full-line comment
+/^.+#.*[\w\s]+$/ -- end-of-line comment
+/[\w\d]+\s*=$/ -- bare key
+/^\[.+\]$/ -- table header

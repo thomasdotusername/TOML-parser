@@ -1,0 +1,4 @@
+# Routes are defined as tables
+['get-address'] # The header is the route name
+url = '/' # The uri it is accessable on is defined here
+file = '/pages/home.php' # And the handling file here
