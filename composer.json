@@ -1,0 +1,23 @@
+{
+    "name": "thomashurst/toml",
+    "autoload": {
+        "psr-4": {
+            "ThomasHurst\\TOML\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thomas Hurst",
+            "email": "thomas.hurst@morphsites.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/thomasdotusername/term"
+        }
+    ],
+    "require": {
+        "thomashurst/term": "0.1.x-dev"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b462c25289ab7fff7cad4e22bf3a242e",
+    "packages": [
+        {
+            "name": "thomashurst/term",
+            "version": "0.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thomasdotusername/Term.git",
+                "reference": "e8ec2c09c2828fdac48160d53cee296bc0dbeaca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thomasdotusername/Term/zipball/e8ec2c09c2828fdac48160d53cee296bc0dbeaca",
+                "reference": "e8ec2c09c2828fdac48160d53cee296bc0dbeaca",
+                "shasum": ""
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "ThomasHurst\\Term\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Thomas Hurst",
+                    "email": "thomas.hurst@morphsites.com"
+                }
+            ],
+            "description": "A simple terminal IO class",
+            "support": {
+                "source": "https://github.com/thomasdotusername/Term/tree/0.1.x",
+                "issues": "https://github.com/thomasdotusername/Term/issues"
+            },
+            "time": "2026-02-11T21:19:17+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "thomashurst/term": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}

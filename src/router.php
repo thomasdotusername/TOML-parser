@@ -1,5 +1,7 @@
 <?php
 
+namespace ThomasHurst\TOML;
+
 class Router
 {
 	//public const REQUEST_URI = $_SERVER['REQUEST_URI'];
